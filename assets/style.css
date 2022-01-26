@@ -1,0 +1,64 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #aaf2d1;
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background: #81d8d0;
+
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.new-task-principal{
+    margin-top: 30px;
+}
+
+.new-task-principal #new-task-i {
+    border-radius: 3.5px;
+}
+
+#new-task-i:focus {
+    background: lightblue;
+}
+
+#add-task {
+    background: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background: cornflowerblue;
+}
+
+.tasks{
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+    background: #81d8d0;
+    font-size: 18px;
+    text-transform: initial;
+}
+
+:checked +.msg{
+    text-decoration: line-through;
+    color: royalblue;
+}
+
+/* Usar para remover 
+
+.remove {
+    display: none;
+}
+
+*/
